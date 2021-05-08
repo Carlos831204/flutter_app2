@@ -64,13 +64,13 @@ class HomePage extends StatelessWidget{
                 ),
               ),
               Container(
-                width:300,
+                width:400,
                 height: 100,
                 alignment: Alignment.center,
                 margin: EdgeInsets.only(left: 5, top: 25, right: 15, bottom: 10 ),
                 padding: EdgeInsets.only(left: 40, top: 8, right: 25, bottom: 15 ),
                 decoration: BoxDecoration(
-                    color:Colors.white,
+                    color:Colors.blue,
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(50),
                         topRight: Radius.circular(50),
@@ -112,6 +112,12 @@ class HomePage extends StatelessWidget{
                        */
                     )
                 ),
+
+              ),
+              Container(
+                width:300,
+                height: 200,
+                child: Image.network('https://blogthinkbig.com/wp-content/uploads/sites/4/2016/03/hoja-planta.jpg', width: 300, height: 100,),
               ),
             ],
           )

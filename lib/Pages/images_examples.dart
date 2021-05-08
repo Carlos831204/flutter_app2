@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 class ImagesExample extends StatelessWidget{
   @override
@@ -6,10 +7,10 @@ class ImagesExample extends StatelessWidget{
       child: Column(
           children: [
             Image.network(
-                "https://pixabay.com/es/photos/el-agua-paisaje-r%C3%ADo-la-naturaleza-4821153/"
-            )
+               'https://blogthinkbig.com/wp-content/uploads/sites/4/2016/03/hoja-planta.jpg', width: 300, height: 100,'
+            ),
           ]
       ),
     );
   }
-}
+}*/
