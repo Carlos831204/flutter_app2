@@ -115,7 +115,7 @@ class HomePage extends StatelessWidget{
 
               ),
               Container(
-                width:300,
+                width:400,
                 height: 200,
                 child: Image.network('https://blogthinkbig.com/wp-content/uploads/sites/4/2016/03/hoja-planta.jpg', width: 300, height: 100,),
               ),
